@@ -9,9 +9,8 @@ public class Demo06FinalError {
         ExecutorService workingJack = Executors.newSingleThreadExecutor();
         for ( int count = 0; count < 25; count++ ) {
             workingJack.submit( () -> {
-                // Opgave: forklar hvad denne fejl skyldes
-                // Fjern udkommenteringen i næste linje
-//                System.out.println( "Hello "+ count + " to us" );
+                // Explain why this line is a problem (Remove the comment)
+//                System.out.println( "Count is: "+count );
             } );
         }
         workingJack.shutdown();
