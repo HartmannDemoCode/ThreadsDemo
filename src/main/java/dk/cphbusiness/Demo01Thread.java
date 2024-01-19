@@ -8,6 +8,7 @@ package dk.cphbusiness;
 public class Demo01Thread {
 
     public static void main( String[] args ) throws Exception{
+        System.out.println( "Starting main thread");
         String[] strings = { "String 01", "String 02", "String 03", "String 04", "String 05" };
         // New thread by making an anonymous subclass of Thread
         Thread t = new Thread() {
@@ -23,7 +24,7 @@ public class Demo01Thread {
                 }
             }
         };
-        System.out.println( "Thread is being started" );
+        System.out.println( "New Thread is being started" );
         t.start();
 //        t.join(); // Insert this line to make the main thread wait for t to finish
         System.out.println( "Main thread is done" );

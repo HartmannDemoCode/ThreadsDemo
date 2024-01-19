@@ -5,8 +5,6 @@ package dk.cphbusiness;
  * Author: Thomas Hartmann
  */
 public class Demo04Arguments {
-    // Show how we can send arguments to a thread
-
     public static void main( String[] args ) throws Exception {
 
         String[] stringArray01 = { "String 01", "String 02", "String 03", "String 04", "String 05" };
@@ -39,5 +37,4 @@ class TaskWithConstructor implements Runnable {
             }
         }
     }
-
 }
