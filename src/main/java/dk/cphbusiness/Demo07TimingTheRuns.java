@@ -3,6 +3,10 @@ package dk.cphbusiness;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * Purpose of this demo is to show how to time the execution of a program
+ * Author: Thomas Hartmann
+ */
 public class Demo07TimingTheRuns {
 
     public static void main( String[] args ) {

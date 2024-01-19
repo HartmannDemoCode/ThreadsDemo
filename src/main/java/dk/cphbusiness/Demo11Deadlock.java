@@ -1,7 +1,11 @@
 package dk.cphbusiness;
 
 
-public class Demo12Deadlock {
+/**
+ * Purpose: To demonstrate a deadlock when two threads are waiting for each other to release a lock
+ * Author: Thomas Hartmann
+ */
+public class Demo11Deadlock {
     public static void main(String[] args) {
         Resource resource = new Resource();
 

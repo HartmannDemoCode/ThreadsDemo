@@ -7,7 +7,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-public class Demo09Callables {
+/**
+ * Purpose of this demo is to show how to use Callables and Futures to get a return value from a task (and to be able to throw exceptions)
+ * Author: Thomas Hartmann
+ */
+public class Demo08Callables {
 
     public static void main( String[] args ) {
         System.out.println( "Main starts.\nTasks will be executed in same sequence as entered" );

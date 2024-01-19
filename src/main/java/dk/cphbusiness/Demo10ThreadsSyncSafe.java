@@ -1,5 +1,10 @@
 package dk.cphbusiness;
-public class Demo11ThreadsSyncSafe {
+
+/**
+ * Purpose of this demo is to show how to use synchronized methods to ensure thread safety
+ * Author: Thomas Hartmann
+ */
+public class Demo10ThreadsSyncSafe {
     public static void main(String[] args) throws InterruptedException {
         // Create a shared Counter instance
         Counter counter = new Counter();

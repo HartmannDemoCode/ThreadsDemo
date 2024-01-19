@@ -1,6 +1,10 @@
 package dk.cphbusiness;
 
-public class Demo10RaceCondition {
+/**
+ * Purpose of this demo is to show the problem with 'race condition' when two threads access the same variable
+ * Author: Thomas Hartmann
+ */
+public class Demo09RaceCondition {
     public static void main(String[] args) throws InterruptedException {
         // A single instance of the counter is used in 2 threads
         Counter counter = new Counter();

@@ -3,6 +3,9 @@ package dk.cphbusiness;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * Purpose of this demo is to show how to use an ExecutorService with a single thread
+ */
 public class Demo05ExecutorService {
 
     public static void main( String[] args ) {

@@ -9,9 +9,8 @@ This code is used for the Threads Course on Second Semester.
 5. Demo5 shows how we can use callables with executors.
 6. Demo6 shows how using lambda we need the shared ressource to be final or effectively final.
 7. Demo 7 shows an example of using System.currentTimeMillis() to measure the time it takes to run a task.
-8. Demo 8 shows how to use the sleep method to simulate a long running task.
-9. Demo 9 shows how we can get a return value (plus throwing exceptions) from a thread using Callable and Future. 
-10. Demo 10 shows an example of creating a race condition between 2 threads when they increment a shared variable.
-11. Demo 11 shows how we can use the `synchronised` keyword to lock a method so that only one thread can access it at a time.
-12. Demo 12 shows how a deadlock can occur in code. And why it is important to avoid it.
+8. Demo 8 shows how we can get a return value (plus throwing exceptions) from a thread using Callable and Future. 
+09. Demo 09 shows an example of creating a race condition between 2 threads when they increment a shared variable.
+10. Demo 10 shows how we can use the `synchronised` keyword to lock a method so that only one thread can access it at a time.
+11. Demo 11 shows how a deadlock can occur in code. And why it is important to avoid it.
 

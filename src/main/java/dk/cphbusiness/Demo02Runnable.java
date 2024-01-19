@@ -1,5 +1,11 @@
 package dk.cphbusiness;
 
+
+/**
+ * Purpose: Show how to make a thread by giving it an instance of a class that implements Runnable
+ * Now we can reuse the thread runnable code
+ * Author: Thomas Hartmann
+ * */
 public class Demo02Runnable {
 
     public static void main( String[] args ) throws Exception {
@@ -23,7 +29,7 @@ class StringPrinterTask implements Runnable {
             try {
                 Thread.sleep( 1000 );
             } catch ( InterruptedException ex ) {
-                System.out.println( "I was interopted" );
+                System.out.println( "I was interrupted" );
             }
         }
     }
